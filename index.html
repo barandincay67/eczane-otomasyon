@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Eczane Otomasyon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Eczane Otomasyon Sistemi</h1>
+
+    <!-- Arama -->
+    <input type="text" id="arama" placeholder="İlaç ara" onkeyup="ara()">
+
+    <!-- İlaç ve stok -->
+    <input type="text" id="ilac" placeholder="İlaç adı gir">
+    <input type="number" id="stok" placeholder="Stok gir">
+
+    <!-- Ekle butonu -->
+    <button onclick="ekle()">Ekle</button>
+
+    <!-- Liste -->
+    <ul id="liste"></ul>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
